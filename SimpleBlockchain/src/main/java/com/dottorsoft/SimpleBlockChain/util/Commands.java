@@ -4,6 +4,7 @@ public enum Commands {
 	
 	GET_BLOCKCHAIN("getBlockChain"),
         GET_TRANSACTION("getTransaction"),
+        GET_PUBLICKEY("getPublicKey"),
 	POST_LAST_MINED_BLOCK("postLastMinedBlock"),
 	GET_BLOCK_CHAIN_SIZE("getBlockChainSize"),
 	UNKNOWN_COMMAND("command unknown"),

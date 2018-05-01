@@ -23,6 +23,11 @@ public class ExecuteCommands {
 		networking.send(Commands.GET_BLOCKCHAIN.getCommand());
 		return networking.receive();
 	}
+        
+        public String getPublicKey(){
+		networking.send(Commands.GET_PUBLICKEY.getCommand());
+		return networking.receive();
+	}
 	
 	public int getBlockChainSize(){
 		networking.send(Commands.GET_BLOCK_CHAIN_SIZE.getCommand());

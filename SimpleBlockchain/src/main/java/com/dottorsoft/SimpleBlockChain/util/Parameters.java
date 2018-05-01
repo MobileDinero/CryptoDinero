@@ -12,6 +12,8 @@ public class Parameters {
 	
 	public static LinkedHashMap<String,Block> blockchain = new LinkedHashMap<String, Block>();
         
+        public static String pubKey = null;
+        
         public static HashMap<String,TransactionOutput> UTXOs = new HashMap<String,TransactionOutput>();
 
 }
