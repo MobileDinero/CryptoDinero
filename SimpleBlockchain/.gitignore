@@ -1,0 +1,4 @@
+/target/
+.settings/
+/dependency-reduced-pom.xml
+.project
